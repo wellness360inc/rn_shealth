@@ -1,0 +1,55 @@
+{
+  "_from": "rn-samsung-health",
+  "_id": "rn-samsung-health@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Vr/NEO/SAoGzXip6uqbDyc+tbeWTstvVrSn2i/a5ppuPCvEs4nI5rK6VAnjHLW1/id3M7nzCHuFTMQJC6mpqQw==",
+  "_location": "/rn-samsung-health",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rn-samsung-health",
+    "name": "rn-samsung-health",
+    "escapedName": "rn-samsung-health",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rn-samsung-health/-/rn-samsung-health-0.1.7.tgz",
+  "_shasum": "98e40b58f459939f974fdbb26e5e716430a261c1",
+  "_spec": "rn-samsung-health",
+  "_where": "/Users/aniltripathi/Documents/Wellness360/w360App",
+  "author": {
+    "name": "Ganesh Singh Papola"
+  },
+  "bugs": {
+    "url": "https://github.com/GaneshSinghPapola/rn-samsung-health/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React-Native module to read health data from samsung-health application on android device, using samsung health android sdk.",
+  "homepage": "https://github.com/GaneshSinghPapola/rn-samsung-health#readme",
+  "keywords": [
+    "react-native",
+    "rn",
+    "samsung-health",
+    "android",
+    "library"
+  ],
+  "license": "Unlicense",
+  "main": "index.android.js",
+  "name": "rn-samsung-health",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshSinghPapola/rn-samsung-health.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.7"
+}
