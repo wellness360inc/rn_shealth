@@ -63,7 +63,8 @@ public class SamsungHealthModule extends ReactContextBaseJavaModule implements L
         // constants.put("WEIGHT", HealthConstants.Weight.HEALTH_DATA_TYPE);
         // constants.put("HEIGHT", HealthConstants.Height.HEALTH_DATA_TYPE);
         // constants.put("HEART_RATE", HealthConstants.HeartRate.HEALTH_DATA_TYPE);
-        // constants.put("SLEEP", HealthConstants.Sleep.HEALTH_DATA_TYPE);
+        constants.put("SLEEP", HealthConstants.Sleep.HEALTH_DATA_TYPE);
+        constants.put("WATER_INTAKE", HealthConstants.WaterIntake.HEALTH_DATA_TYPE);
         constants.put("NUTRITION", HealthConstants.Nutrition.HEALTH_DATA_TYPE);
         constants.put("EXERCISE", HealthConstants.Exercise.HEALTH_DATA_TYPE);
         constants.put("FLOORS_CLIMBED", HealthConstants.FloorsClimbed.HEALTH_DATA_TYPE);
