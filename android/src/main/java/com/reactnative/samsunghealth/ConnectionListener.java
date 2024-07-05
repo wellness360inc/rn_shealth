@@ -101,8 +101,11 @@ public class ConnectionListener implements HealthDataStore.ConnectionListener {
         alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                if (mConnError.hasResolution()) {
+                try {
                     mConnError.resolve(mModule.getContext().getCurrentActivity());
+                } catch (Exception e) {
+                    Log.e(REACT_MODULE, "Failed to resolve connection error: " + e.getMessage());
+                    mPromise.reject("Failed to resolve connection error", e);
                 }
             }
         });
